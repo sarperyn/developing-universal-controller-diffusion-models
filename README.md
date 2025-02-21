@@ -1,5 +1,7 @@
 # Developing a Universal Controller for 3D Non-linear Attributes on the h-space of Diffusion Models
 
+> **Status**: This project was conducted at the Georgia Tech Rehg Lab under the supervision of Ozgur Kara (PhD student of Prof. James M. Rehg). Despite extensive exploration and experimentation, it ended without conclusive success. We share our research notes, code, and intermediate findings here for transparency and future reference.
+
 ## Overview
 
 Recent work on Diffusion Models (DDPMs) reveals that they contain a **semantic latent space**, referred to as **h-space**. By exploiting this space, we can manipulate image attributes (such as rotation, distance, and lighting) without retraining the entire diffusion model. Instead, we introduce a lightweight component—called a **Delta-h Generator**—to shift the latent representation, thus steering the output image along a chosen attribute (e.g., object rotation in 3D).
@@ -115,6 +117,15 @@ This project explores how to:
 
 ---
 
+## Findings
+
+- [**Experiment Results**](https://drive.google.com/file/d/1tbSvsnILHzBn2w2na6Bdq19bfTGIjpr8/view?usp=sharing)
+- [**Additional Presentation**](https://drive.google.com/file/d/1C5ePbwt4Sr6kHfRi1LWi4hzq7vSoqEUu/view?usp=sharing)
+
+These slides detail some of our experiments, including intermediate and final outputs. Although the final outcomes were inconclusive, we hope these findings may guide future research.
+
+---
+
 ## References
 
 1. Kwon, M., Jeong, J., & Uh, Y. (2022). [Diffusion models already have a semantic latent space](https://arxiv.org/abs/2210.10960). *arXiv preprint arXiv:2210.10960*.
@@ -128,9 +139,3 @@ This project explores how to:
 9. Rombach, R., et al. (2022). [High-resolution image synthesis with latent diffusion models](https://arxiv.org/abs/2112.10752). *CVPR*.
 10. Vahdat, A., Kreis, K., & Kautz, J. (2021). [Score-based generative modeling in latent space](https://arxiv.org/abs/2111.XXXX). *NeurIPS, 34*.
 11. Kim, G., Kwon, T., & Ye, J. C. (2022). [DiffusionCLIP: Text-guided diffusion models for robust image manipulation](https://arxiv.org/abs/2110.02711). *CVPR*.
-
----
-
-**License**: *(Add your preferred open-source license here.)*
-
-**Contributors**: *(List contributors or link to GitHub profiles.)*
